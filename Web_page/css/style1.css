@@ -1,0 +1,86 @@
+/*morado oscuro 241D2F morado claro 372E4B morado clarito E5DBF5 naranja    casiblanco: EFEDF3 */
+* {
+  box-sizing: border-box;
+  background-color: #EFEDF3; /*morado clarito*/
+}
+
+/* ======== BODY ======== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h1{
+	font-size: 30px;
+    font-family: 'Cinzel', serif; /* fuente estilizada tipo rock */
+	color: 241D2F
+}
+
+/* Menú de navegación fijo en la parte superior */
+#menu {
+  margin-right: 10px;
+  position:fixed;
+  width: 100%; /* Ocupa todo el ancho de la página */
+  top:0;
+  background-color: #241D2F; /* Color de fondo del menú oscuro*/
+  margin: 10 10px;             /* Espacio debajo */
+  text-align: center; /* Centra los enlaces dentro del menú */
+  z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+  
+}
+
+
+/* Estilo de la lista de navegación */
+#menu ul {
+  list-style: none; /* Elimina los puntos de la lista */
+  padding: 0; /* Elimina el padding de la lista */
+  margin: 10; /* Elimina el margen de la lista */
+  display: flex; /* Usamos flexbox para que los elementos de la lista estén en línea */
+  justify-content: left; /* Centra los elementos horizontalmente */
+  background-color: #241D2F;
+  
+}
+
+#menu ul li {
+  margin: 0 15px; /* Espacio entre cada enlace */
+  background-color: #241D2F;
+}
+
+#menu ul li a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  color: #A2482D; 
+  font-size: 18px; /* Tamaño de la fuente */
+  font-weight: bold; /* Negrita */
+  background-color: #241D2F;
+}
+
+#menu ul li a:hover {
+  color: #fff; /* Cambia el color al pasar el mouse */
+  text-decoration: none; 
+}
+
+
+/* ======== FOOTER ======== */
+#pie {
+  background-color: #241D2F;   /* morado oscuro */
+  color: #E5DBF5;              /* texto claro */
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 60px;            /* separación del contenido superior */
+  font-family: 'Oswald', sans-serif;
+}
+
+#pie .footer-content {
+
+
+    background-color: #241D2F;   /* morado oscuro */
+}
+#pie a, #pie p {
+	 background-color: #241D2F;   /* morado oscuro */
+}
+.footer-links {
+	 background-color: #241D2F;   /* morado oscuro */
+}
+
+
+

@@ -1,0 +1,111 @@
+/* Contenedor principal para dar un poco de margen */
+*{
+	background-color: #EFEDF3;
+}
+.search-container {
+            max-width: 800px;
+            margin: 0 auto;       
+			background-color: #EFEDF3; /*morado clarito*/
+
+        }
+
+        /* Estilo para los títulos de sección con viñeta */
+        .section-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+
+        /* Estilos generales de los inputs para que parezcan los de la imagen */
+        input[type="text"] {
+            background-color: #ccd5f0; /* Color azulado de la imagen */
+            border: 1px solid #7f9db9;
+            padding: 3px;
+            margin-right: 5px;
+        }
+
+        /* Estilos de los botones */
+        button {
+            background-color: #A2482D;
+            border: 1px solid #7f9db9;
+            padding: 2px 10px;
+            cursor: pointer;
+            margin-right: 5px;
+			border-radius: 2px;
+			font-size: 13px;
+            color: white;
+        }
+        
+        button:hover {
+             background-color: #cc5c3e;
+        }
+		
+		
+
+        /* --- SECCIÓN 1: PALABRA CLAVE --- */
+        .keyword-row {
+            display: flex;
+            align-items: center;
+            margin-left: 40px; /* Indentación */
+            margin-bottom: 20px;
+        }
+
+        .keyword-label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .keyword-input {
+            width: 250px;
+        }
+
+        /* --- SECCIÓN 2: POR CAMPOS --- */
+        .fields-container {
+            margin-left: 40px; /* Indentación */
+            display: grid;
+            /* Grid para alinear etiquetas a la derecha y inputs a la izquierda */
+            grid-template-columns: 160px 1fr; 
+            gap: 5px;
+            align-items: center;
+            max-width: 600px;
+       }
+
+        .field-label {
+            text-align: right;
+            padding-right: 10px;
+            font-size: 14px;
+            color: #555; /* Un gris oscuro para el texto de etiqueta */
+
+        }
+
+        .field-input {
+            width: 100%; /* Ocupa todo el espacio disponible */
+            box-sizing: border-box;
+        }
+
+        .field-input.short {
+            width: 60px; /* Para el año, que es corto */
+        }
+
+        .buttons-row {
+            grid-column: 2; /* Se coloca en la columna de los inputs */
+            margin-top: 5px;
+        }
+
+        /* --- SECCIÓN 3: ENLACE FINAL --- */
+        .view-all-link {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+        }

@@ -1,0 +1,51 @@
+/* --- Estilos para Tablas de Administración (ej. mostrar_productos, mostrar_usuarios) --- */
+
+.admin-table {
+    width: 95%; /* Ocupa casi todo el ancho disponible */
+    max-width: 1100px;
+    margin: 30px auto;
+    border-collapse: collapse; /* Bordes unidos */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    background-color: #FFFFFF;
+}
+
+/* Encabezados de la Tabla */
+.admin-table thead th {
+    background-color: #372E4B; /* Fondo Morado Oscuro */
+    color: #FFFFFF; /* Texto Blanco */
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    border: 1px solid #282136; /* Borde oscuro */
+}
+
+/* Celdas del Cuerpo de la Tabla */
+.admin-table tbody td {
+    padding: 10px 15px;
+    border: 1px solid #ccc; /* Bordes grises suaves */
+    color: #333;
+    text-align: left;
+}
+
+/* Filas Alternas (para mejor lectura) */
+.admin-table tbody tr:nth-child(even) {
+    background-color: #F8F8F8; /* Fondo ligeramente gris para filas pares */
+}
+
+/* Efecto al pasar el ratón por las filas */
+.admin-table tbody tr:hover {
+    background-color: #E5DBF5; /* Fondo Morado Claro */
+}
+
+/* Estilo específico para las imágenes en la tabla */
+.admin-table .img-col {
+    width: 80px;
+    text-align: center;
+}
+.admin-table .img-col img {
+    width: 60px;
+    height: auto;
+    border-radius: 4px;
+}
+

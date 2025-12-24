@@ -1,0 +1,35 @@
+.buscador-container {
+    max-width: 1000px;
+    margin: 120px auto 50px auto; /* Espacio para el menú fijo */
+    padding: 20px;
+    background-color: #EFEDF3;
+}
+
+.buscador-tabla {
+    width: 100%; 
+    max-width: 900px; /* Tope de anchura para que no se estire demasiado */
+    margin: 20px auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse;
+    background-color: #fff; 
+}
+
+.buscador-tabla th, .buscador-tabla td {
+    border: 1px solid #372E4B;
+    padding: 15px 10px;
+	text-align: center;
+    background-color: #fff; /* Fondo blanco para celdas */
+}
+.buscador-tabla th {
+    background-color: #372E4B; /* Morado claro */
+    color: white;
+    text-transform: uppercase;
+	}
+.buscador-tabla img {
+    width: 80px; /* Tamaño más visible */
+    height: auto;
+    border-radius: 5px;
+}
+.buscador-tabla th:first-child,
+.buscador-tabla td:first-child {
+    width: 150px;
+}
